@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Editor */
+.editor-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editor-input {
+  margin-top: 10vh;
+  height: 80vh;
+  width: 80vw;
+}

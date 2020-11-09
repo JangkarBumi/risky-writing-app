@@ -1,12 +1,11 @@
-import React, { useState } from 'react'
+import React, { useContext } from 'react'
 import {Link} from 'react-router-dom'
+import {useWordContext} from '../context/WordContext'
 
 const Landing = () => {
 
-const wordGoalOption = [150,250,500,750,1000]
 
-const [wordGoal,setWordGoal] = useState(wordGoalOption[2])
-
+const {wordGoalOption,wordGoal,setWordGoal} = useWordContext()
   return (
     <div>
       <h2>Don't stop typing, or all is lost.</h2>

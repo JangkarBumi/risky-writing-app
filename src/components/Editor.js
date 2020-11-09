@@ -16,7 +16,7 @@ const Editor = () => {
   };
 
   useEffect(() => {
-    const timer = setTimeout(() => setIsFailed(true), 3000);
+    const timer = setTimeout(() => setIsFailed(true), 5000);
     return () => {
       clearTimeout(timer);
     };

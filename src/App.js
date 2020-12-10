@@ -9,7 +9,7 @@ function App() {
     <Router>
       <WordProvider>
         <Switch>
-          <Route exact path="/" component={Landing} />
+          <Route exact path="/risky-writing-app" component={Landing} />
           <Route exact path="/write" component={Editor} />
         </Switch>
       </WordProvider>

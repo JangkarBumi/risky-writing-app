@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/risky-writing-app/static/css/main.7224f40f.chunk.css",
-    "main.js": "/risky-writing-app/static/js/main.983cdd39.chunk.js",
-    "main.js.map": "/risky-writing-app/static/js/main.983cdd39.chunk.js.map",
+    "main.js": "/risky-writing-app/static/js/main.103ea294.chunk.js",
+    "main.js.map": "/risky-writing-app/static/js/main.103ea294.chunk.js.map",
     "runtime-main.js": "/risky-writing-app/static/js/runtime-main.d38e2dc4.js",
     "runtime-main.js.map": "/risky-writing-app/static/js/runtime-main.d38e2dc4.js.map",
     "static/js/2.f34f8310.chunk.js": "/risky-writing-app/static/js/2.f34f8310.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.d38e2dc4.js",
     "static/js/2.f34f8310.chunk.js",
     "static/css/main.7224f40f.chunk.css",
-    "static/js/main.983cdd39.chunk.js"
+    "static/js/main.103ea294.chunk.js"
   ]
 }

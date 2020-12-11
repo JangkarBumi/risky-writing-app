@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/risky-writing-app/static/css/main.7224f40f.chunk.css",
-    "main.js": "/risky-writing-app/static/js/main.103ea294.chunk.js",
-    "main.js.map": "/risky-writing-app/static/js/main.103ea294.chunk.js.map",
+    "main.css": "/risky-writing-app/static/css/main.28e48790.chunk.css",
+    "main.js": "/risky-writing-app/static/js/main.b3706a23.chunk.js",
+    "main.js.map": "/risky-writing-app/static/js/main.b3706a23.chunk.js.map",
     "runtime-main.js": "/risky-writing-app/static/js/runtime-main.d38e2dc4.js",
     "runtime-main.js.map": "/risky-writing-app/static/js/runtime-main.d38e2dc4.js.map",
     "static/js/2.f34f8310.chunk.js": "/risky-writing-app/static/js/2.f34f8310.chunk.js",
     "static/js/2.f34f8310.chunk.js.map": "/risky-writing-app/static/js/2.f34f8310.chunk.js.map",
     "index.html": "/risky-writing-app/index.html",
-    "static/css/main.7224f40f.chunk.css.map": "/risky-writing-app/static/css/main.7224f40f.chunk.css.map",
+    "static/css/main.28e48790.chunk.css.map": "/risky-writing-app/static/css/main.28e48790.chunk.css.map",
     "static/js/2.f34f8310.chunk.js.LICENSE.txt": "/risky-writing-app/static/js/2.f34f8310.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d38e2dc4.js",
     "static/js/2.f34f8310.chunk.js",
-    "static/css/main.7224f40f.chunk.css",
-    "static/js/main.103ea294.chunk.js"
+    "static/css/main.28e48790.chunk.css",
+    "static/js/main.b3706a23.chunk.js"
   ]
 }

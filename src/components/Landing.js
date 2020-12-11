@@ -18,7 +18,7 @@ const {wordGoalOption,wordGoal,setWordGoal} = useWordContext()
     <button onClick={() => setWordGoal(wordGoalOption[4])}>1000</button>
   <h3>Goal : {wordGoal} Words</h3>
     </div>
-      <Link to="/write">Start Writing</Link>
+      <Link to="/risky-writing-app/write">Start Writing</Link>
     </div>
   )
 }

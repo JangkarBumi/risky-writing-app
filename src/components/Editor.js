@@ -16,10 +16,12 @@ const Editor = () => {
   };
 
   useEffect(() => {
-    const timer = setTimeout(() => setIsFailed(true), 5000);
-    return () => {
-      clearTimeout(timer);
-    };
+    if (wordCount < wordGoal) { // if the wordGoal is reached, stop the timer
+      const timer = setTimeout(() => setIsFailed(true), 5000);
+      return () => {
+        clearTimeout(timer); // reset timer to 0 everytime user type a word
+      };
+    }
   }, [text]);
 
   const handleDownload = () => {
@@ -33,7 +35,7 @@ const Editor = () => {
 
   const handleNew = () => {
     setIsFailed(false);
-    setText('')
+    setText('');
   };
 
   if (isFailed) {
@@ -45,7 +47,7 @@ const Editor = () => {
           I wrote {wordCount} words using The Risky Writing App - until it
           killed my writing.
         </p>
-        <Link to="/write" onClick={handleNew}>
+        <Link to="/risky-writing-app/write" onClick={handleNew}>
           Try Again
         </Link>
       </div>
@@ -53,19 +55,22 @@ const Editor = () => {
   }
 
   return (
-    <div className="editor-container">
-      <h2 className="block">Goal : {wordGoal} Words</h2>
-      {text.length >= wordGoal ? (
-        <button onClick={handleDownload}>Download</button>
-      ) : null}
-      <input
-        className="editor-input"
-        type="text"
-        name="text"
-        value={text}
-        onChange={handleChange}
-      />
-      <h2 className="block">{wordCount} Words</h2>
+    <div>
+      {wordCount >= wordGoal ? <p className="alert">Success</p> : null}
+      <div className="editor-container">
+        <h2 className="block">Goal : {wordGoal} Words</h2>
+        {wordCount >= wordGoal ? (
+          <button onClick={handleDownload}>Download</button>
+        ) : null}
+        <input
+          className="editor-input"
+          type="text"
+          name="text"
+          value={text}
+          onChange={handleChange}
+        />
+        <h2 className="block">{wordCount} Words</h2>
+      </div>
     </div>
   );
 };
